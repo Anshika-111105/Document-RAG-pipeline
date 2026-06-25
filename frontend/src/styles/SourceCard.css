@@ -1,0 +1,48 @@
+/* Source card styles */
+
+.source-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: box-shadow 0.2s;
+}
+
+.source-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.source-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.source-header h4 {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--dark-gray);
+}
+
+.score {
+  background: var(--secondary-color);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.page {
+  font-size: 0.85rem;
+  color: #999;
+  margin: 0.5rem 0;
+}
+
+.content {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.5;
+}

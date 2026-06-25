@@ -1,0 +1,38 @@
+/* Upload box styles */
+
+.upload-box {
+  background: var(--light-gray);
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  border: 2px dashed #ccc;
+  text-align: center;
+}
+
+.upload-box h3 {
+  margin-bottom: 1rem;
+}
+
+.upload-box input[type="file"] {
+  padding: 0.5rem;
+  cursor: pointer;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: white;
+}
+
+.upload-box input[type="file"]:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.upload-box p {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.upload-box .error {
+  color: var(--danger-color);
+  font-weight: bold;
+}

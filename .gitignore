@@ -1,0 +1,72 @@
+# Git ignore file
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Vector stores & data
+vector_db/
+data/raw_documents/
+data/processed_chunks/
+*.faiss
+*.pkl
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Node
+node_modules/
+dist/
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.tmp
+*.temp
